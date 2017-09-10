@@ -1,3 +1,21 @@
 [submodule "pack/jkl-plugins/start/YouCompleteMe"]
 	path = pack/jkl-plugins/start/YouCompleteMe
 	url = https://github.com/valloric/YouCompleteMe.git
+[submodule "pack/jkl-plugins/start/molokai"]
+	path = pack/jkl-plugins/start/molokai
+	url = http://github.com/tomasr/molokai.git
+[submodule "pack/jkl-plugins/start/vim-colorschemes"]
+	path = pack/jkl-plugins/start/vim-colorschemes
+	url = http://github.com/flazz/vim-colorschemes.git
+[submodule "pack/jkl-plugins/start/vim-clang-format"]
+	path = pack/jkl-plugins/start/vim-clang-format
+	url = http://github.com/rhysd/vim-clang-format.git
+[submodule "pack/jkl-plugins/start/syntastic"]
+	path = pack/jkl-plugins/start/syntastic
+	url = http://github.com/vim-syntastic/syntastic.git
+[submodule "pack/jkl-plugins/start/vim-airline"]
+	path = pack/jkl-plugins/start/vim-airline
+	url = http://github.com/vim-airline/vim-airline.git
+[submodule "pack/jkl-plugins/start/vim-airline-themes"]
+	path = pack/jkl-plugins/start/vim-airline-themes
+	url = http://github.com/vim-airline/vim-airline-themes.git

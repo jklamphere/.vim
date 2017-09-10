@@ -61,10 +61,20 @@ if filereadable("/etc/vim/vimrc.local")
 endif
 set t_Co=256
 colorscheme molokai
- let g:bufferline_echo = 0
-  autocmd VimEnter *
-    \ let &statusline='%{bufferline#refresh_status()}'
-      \ .bufferline#get_status_string()
-<
+let g:airline#extensions#tabline#enabled = 1
 
+" let g:bufferline_echo = 0
+ " autocmd VimEnter *
+  "  \ let &statusline='%{bufferline#refresh_status()}'
+   "   \ .bufferline#get_status_string()
+"<
 
+set statusline+=%#warningmsg# 
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_cpp_compiler_options = ' -std=c++11'
