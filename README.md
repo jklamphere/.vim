@@ -40,12 +40,12 @@ COMPILE
 
 Change to current verion number:
 
-    make VIMRUNTIMEDIR=/usr/share/vim/vim80
+
     sudo make install
-    sudo update-alternatives --install /usr/bin/editor editor /usr/bin/vim 1
-    sudo update-alternatives --set editor /usr/bin/vim
-    sudo update-alternatives --install /usr/bin/vi vi /usr/bin/vim 1
-    sudo update-alternatives --set vi /usr/bin/vim
+    sudo update-alternatives --install /usr/local/bin/editor editor /usr/local/bin/vim 1
+    sudo update-alternatives --set editor /usr/local/bin/vim
+    sudo update-alternatives --install /usr/bin/vi vi /usr/local/bin/vim 1
+    sudo update-alternatives --set vi /usr/local/bin/vim
     
  CLONE REPO:   
     git clone git://github.com/NOFUNEVER/.vim.git
