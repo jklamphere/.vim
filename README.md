@@ -63,11 +63,23 @@ Create symlinks:
 Switch to the `~/.vim` directory, and fetch submodules:
 
     cd ~/.vim
-    git submodule init
-    git submodule update
-    git submodule foreach --recursive git submodule update --init
+
+
     sudo git submodule update --init --recursive
-Remember YCM-Generator needs
+    git submodule foreach --recursive git submodule update --init
+
+Remember YCM-Generator may need to be deleted to complete this :(
+
+    delete relevant section from .gitmodules file
+    git add .gitmodules
+    delete from .git/config
+    git rm--cached path/to/submodule
+    rm -rf .git/modules/path/to/submodule
+    git commit -m "removed a module"
+    delete local folder
+    rm -rf path/to/submodule. 	 
+
+
 To add new plugins:
 
     cd ~/dotfiles
@@ -76,8 +88,11 @@ To add new plugins:
     git add .gitmodules vim/pack/shapeshed/start/vim-airline
     git commit
     
-To update packages is also just a case of updating git submodules.
+To update packages is also just a case of updating git submodules. try
 
+    sudo git submodule update --init --recursive
+    git submodule foreach --recursive git submodule update --init
+  or
     git submodule update --remote --merge
     git commit
 Removing a package
@@ -96,8 +111,8 @@ To update an individual plugin enter the root folder of the plugin and:
 Upgrading all bundled plugins:
        
     git submodule foreach git pull origin master
-    or 
-    git submodule foreach --recursive git submodule update --init
+     
+ 
 
    
 Remember YCM-Generator must but just cloned no submodule.
