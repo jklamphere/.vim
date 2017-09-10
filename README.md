@@ -67,14 +67,28 @@ Switch to the `~/.vim` directory, and fetch submodules:
     git submodule update
     git submodule foreach --recursive git submodule update --init
     sudo git submodule update --init --recursive
-
+Remember YCM-Generator needs
 To add new plugins:
 
-    git submodule add http://github.com/user/plugin.git ~/.vim/pack/jkl-plugins/start/ 
-    git add .
-    git commit -m "Install Fugitive.vim bundle as a submodule."
+    cd ~/dotfiles
+    git submodule init
+    git submodule add https://github.com/vim-airline/vim-airline.git vim/pack/shapeshed/start/vim-airline
+    git add .gitmodules vim/pack/shapeshed/start/vim-airline
+    git commit
     
-    //git add . adds all files currently in the folder
+To update packages is also just a case of updating git submodules.
+
+    git submodule update --remote --merge
+    git commit
+Removing a package
+
+Removing a package is just a case of removing the git submodule.
+
+    git submodule deinit vim/pack/shapeshed/start/vim-airline
+    git rm vim/pack/shapeshed/start/vim-airline
+    rm -Rf .git/modules/vim/pack/shapeshed/start/vim-airline
+    git commit
+
 To update an individual plugin enter the root folder of the plugin and:
     
     git pull origin master
@@ -86,7 +100,7 @@ Upgrading all bundled plugins:
     git submodule foreach --recursive git submodule update --init
 
    
-
+Remember YCM-Generator must but just cloned no submodule.
 YCM NEEDS BINARIES COMPILED:
     
    
