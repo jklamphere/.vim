@@ -48,7 +48,7 @@ Change to current verion number:
     sudo update-alternatives --set vi /usr/local/bin/vim
     
  CLONE REPO:   
-    git clone git://github.com/NOFUNEVER/.vim.git
+    git clone https://github.com/NOFUNEVER/.vim.git
 
 Create symlinks:
 
