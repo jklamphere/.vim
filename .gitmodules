@@ -1,0 +1,3 @@
+[submodule "pack/jkl-plugins/start/YouCompleteMe"]
+	path = pack/jkl-plugins/start/YouCompleteMe
+	url = https://github.com/valloric/YouCompleteMe.git
