@@ -25,3 +25,6 @@
 [submodule "pack/jkl-plugins/start/vim-cpp-enhanced-highlight"]
 	path = pack/jkl-plugins/start/vim-cpp-enhanced-highlight
 	url = https://github.com/octol/vim-cpp-enhanced-highlight.git
+[submodule "pack/jkl-plugins/start/vim-sublime-monokai"]
+	path = pack/jkl-plugins/start/vim-sublime-monokai
+	url = https://github.com/ErichDonGubler/vim-sublime-monokai.git
