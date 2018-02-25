@@ -68,7 +68,10 @@ let g:airline#extensions#tabline#enabled = 1
   "  \ let &statusline='%{bufferline#refresh_status()}'
    "   \ .bufferline#get_status_string()
 "<
-
+"
+set tabstop=2
+set shiftwidth=2
+set expandtab
 set statusline+=%#warningmsg# 
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
