@@ -19,6 +19,3 @@
 [submodule "pack/jkl-plugins/start/vim-airline-themes"]
 	path = pack/jkl-plugins/start/vim-airline-themes
 	url = http://github.com/vim-airline/vim-airline-themes.git
-[submodule "pack/jkl-plugins/start/YCM-Generator"]
-	path = pack/jkl-plugins/start/YCM-Generator
-	url = http://github.com/rdnetto/YCM-Generator.git
