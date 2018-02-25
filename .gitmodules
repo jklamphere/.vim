@@ -22,3 +22,6 @@
 [submodule "pack/jkl-plugins/start/nerdtree"]
 	path = pack/jkl-plugins/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "pack/jkl-plugins/start/vim-cpp-enhanced-highlight"]
+	path = pack/jkl-plugins/start/vim-cpp-enhanced-highlight
+	url = https://github.com/octol/vim-cpp-enhanced-highlight.git
