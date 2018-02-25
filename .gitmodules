@@ -22,3 +22,4 @@
 [submodule "pack/jkl-plugins/start/YCM-Generator"]
 	path = pack/jkl-plugins/start/YCM-Generator
 	url = http://github.com/rdnetto/YCM-Generator.git
+
