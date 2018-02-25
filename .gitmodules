@@ -19,3 +19,6 @@
 [submodule "pack/jkl-plugins/start/vim-airline-themes"]
 	path = pack/jkl-plugins/start/vim-airline-themes
 	url = http://github.com/vim-airline/vim-airline-themes.git
+[submodule "pack/jkl-plugins/start/nerdtree"]
+	path = pack/jkl-plugins/start/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
