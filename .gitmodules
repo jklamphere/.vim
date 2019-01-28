@@ -28,3 +28,6 @@
 [submodule "pack/jkl-plugins/start/vim-sublime-monokai"]
 	path = pack/jkl-plugins/start/vim-sublime-monokai
 	url = https://github.com/ErichDonGubler/vim-sublime-monokai.git
+[submodule "/home/jkl/.vim/pack/jkl-plugins/start/vim-table-mode"]
+	path = /home/jkl/.vim/pack/jkl-plugins/start/vim-table-mode
+	url = https://github.com/dhruvasagar/vim-table-mode.git
