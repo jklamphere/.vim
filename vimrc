@@ -89,4 +89,5 @@ let g:syntastic_cpp_compiler_options = ' -std=c++11'
 "
 "
 let g:ycm_show_diagnostics_ui = 0
-
+filetype plugin indent on
+autocmd FileType perl setlocal equalprg=perltidy\ -st
