@@ -31,3 +31,6 @@
 [submodule "/home/jkl/.vim/pack/jkl-plugins/start/vim-table-mode"]
 	path =pack/jkl-plugins/start/vim-table-mode
 	url = https://github.com/dhruvasagar/vim-table-mode.git
+[submodule "/home/jkl/.vim/pack/jkl-plugins/start/flex-bison-syntax"]
+	path = /home/jkl/.vim/pack/jkl-plugins/start/flex-bison-syntax
+	url = https://github.com/calincru/flex-bison-syntax.git
