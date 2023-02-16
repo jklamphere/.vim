@@ -1,6 +1,3 @@
-[submodule "pack/jkl-plugins/start/YouCompleteMe"]
-	path = pack/jkl-plugins/start/YouCompleteMe
-	url = https://github.com/valloric/YouCompleteMe.git
 [submodule "pack/jkl-plugins/start/molokai"]
 	path = pack/jkl-plugins/start/molokai
 	url = http://github.com/tomasr/molokai.git
